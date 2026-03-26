@@ -1,3 +1,19 @@
+## 📂 Project Structure
+
+blinkit-snowflake-analysis/
+│
+├── data/
+│   └── blinkit_data.csv
+├── sql/
+│   └── blinkit_queries.docx
+├── dashboards/
+│   ├── blinkit_overview_analysis.png
+│   ├── order_delivery_analysis.png
+│   └── marketing_performance.png
+├── README.md
+└── insights/
+    └── key_findings.txt
+
 # 🛒 Blinkit Market Analysis (Snowflake + Cortex AI)
 
 This project focuses on analyzing Blinkit sales and operations data using Snowflake.  

@@ -14,41 +14,87 @@ blinkit-snowflake-analysis/
 └── insights/
     └── key_findings.txt
 
-# 🛒 Blinkit Market Analysis (Snowflake + Cortex AI)
+# Blinkit Sales & Operations Analysis using Snowflake & Cortex AI
 
-This project focuses on analyzing Blinkit sales and operations data using Snowflake.  
-The first dashboard provides an overview of key business metrics with the help of Cortex AI.
+This project focuses on analyzing Blinkit sales, delivery, and marketing data using Snowflake. 
+The data was structured by creating database, schema, and tables, and further analyzed using SQL.
 
-## 📊 Dashboard 1: Blinkit Overview Analysis
+Snowflake Cortex AI was used to generate structured dashboards and accelerate insight discovery.
 
-### KPIs:
+## Project Overview
+
+This project is divided into three main parts:
+
+1. Blinkit Overview Analysis  
+2. Order & Delivery Performance Analysis  
+3. Marketing Performance Analysis  
+
+Each section focuses on solving real business problems using data.
+
+## 1. Blinkit Overview Analysis
+
+### Objective
+To understand overall business performance and customer activity.
+
+### Key Metrics
 - Total Orders  
 - Unique Customers  
-- Total Products  
-- Delivery Time  
+- Total Products Sold  
+- Average Delivery Time  
 
-### Insights Covered:
-- Overall business performance  
-- Customer activity  
-- Product distribution  
-- Delivery efficiency  
+### Insights
+- Order trends show how demand changes over time  
+- A small number of products contribute significantly to total sales  
+- Customer activity remains consistent across the dataset  
 
-### Tech Used:
-- Snowflake (Data Warehouse)
-- SQL
-- Cortex AI (for intelligent insights)
-- Dashboarding (Snowsight)
+## 2. Order & Delivery Performance Analysis
 
-## ⚙️ Data Processing
-- Data loaded into Snowflake tables
-- Cleaning and transformations done using SQL
-- Aggregations for KPIs and charts
+### Objective
+To evaluate delivery efficiency and identify operational issues.
 
-## 📌 Project Structure
-- SQL Queries
-- Dashboard Screenshots
-- Insights
+### Key Metrics
+- On-Time Delivery %  
+- Average Delivery Time  
+- Delayed Orders %  
 
-## 🚀 Upcoming Updates
-- Order & Delivery Analysis Dashboard  
-- Marketing Performance Dashboard  
+### Insights
+- Delivery delays increase with distance  
+- Certain delay reasons occur more frequently  
+- Delivery partner performance varies, showing improvement opportunities  
+
+## 3. Marketing Performance Analysis
+
+### Objective
+To measure marketing effectiveness and return on investment.
+
+### Key Metrics
+- Total Spend  
+- Revenue Generated  
+- ROAS (Return on Ad Spend)  
+- Conversion Rate  
+
+### Insights
+- Some channels generate higher revenue with lower spend  
+- High traffic channels do not always convert well  
+- A few campaigns contribute most of the revenue  
+
+## Conclusion
+
+This project shows how data can be used to understand business performance across multiple areas.
+
+- Overview analysis helps track growth and demand  
+- Delivery analysis highlights operational challenges  
+- Marketing analysis identifies opportunities to improve ROI  
+
+Using Snowflake and Cortex AI helped speed up the analysis process while keeping the focus on meaningful business insights.
+
+## Tech Stack
+- Snowflake  
+- SQL  
+- Snowflake Cortex AI  
+
+## How to Use
+1. Create database, schema, and tables in Snowflake  
+2. Load the dataset  
+3. Run SQL queries  
+4. Use Cortex AI to generate dashboards  
